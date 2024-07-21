@@ -12,7 +12,6 @@
   pages={033056},
   year={2021},
   publisher={APS}, 
-  selected = {false},
   abbr = {PhysRev},
   abstract = {Quantum machine learning is an emerging field that combines machine learning with advances in quantum
 technologies. Many works have suggested great possibilities of using near-term quantum hardware in supervised
@@ -76,7 +75,7 @@ explicit approaches using several IBM Q devices.},
   number={2},
   pages={049},
   year={2023},
-  selected = {True},
+  selected = {true},
   abbr = {Sci},
   abstract =  {Given a loop or more generally 1-cycle r of size L on a closed two-dimensional manifold
 or surface, represented by a triangulated mesh, a question in computational topology
@@ -98,7 +97,7 @@ not homotopically equivalent on a closed two-dimensional manifold.},
   author={Nghiem, Nhat A and Gu, Xianfeng David and Wei, Tzu-Chieh},
   journal={arXiv preprint arXiv:2309.10800},
   year={2023},
-  selected = {True},
+  selected = {true},
   abstract = {Topological data analysis has emerged as a powerful tool for analyzing large-scale data. An abstract simplicial complex, in principle, can be built from data points, and by using tools from homology, topological features could be identified. Given a simplex, an important feature is called Betti numbers, which roughly count the number of `holes' in different dimensions. Calculating Betti numbers exactly can be  $\#$P-hard, and approximating them can be NP-hard, which rules out the possibility of any generic efficient algorithms and unconditional exponential quantum speedup. Here, we explore the specific setting of a triangulated manifold. In contrast to most known quantum algorithms to estimate Betti numbers, which rely on homology, we exploit the `dual' approach by cohomology, combining the Hodge theory and de Rham cohomology, as well as recent development in quantum algorithm. This cohomology approach requires exponentially fewer qubits than those known homology-based approaches. Our proposed algorithm can calculate its $r$-th Betti number $\beta_r$ up to some multiplicative error $\delta$ with running time $\mathcal{O}\big( \log(c_r)\ \sqrt{r} \ \sqrt{c_r / \beta_r} \ 1/\delta  \big)$, where $c_r$ is the number of $r$-simplex. It thus works best in the regime when the $r$-th Betti number is considerably smaller than the number of the $r$-simplices and is exponentially faster than previous homology methods in appropriate regime.},
   pdf = {https://arxiv.org/pdf/2309.10800}
 }
@@ -135,6 +134,7 @@ not homotopically equivalent on a closed two-dimensional manifold.},
   author={Nghiem, Nhat A and Wei, Tzu-Chieh},
   journal={arXiv preprint arXiv:2404.03810},
   year={2024},
+  selected = {true},
   abstract = {Nonlinear equations are challenging to solve due to their inherently nonlinear nature. As analytical solutions typically do not exist, numerical methods have been developed to tackle their solutions. In this article, we give a quantum algorithm for solving a system of nonlinear algebraic equations, in which each equation is a multivariate polynomial of known coefficients. Building upon the classical Newton method and some recent works on quantum algorithm plus block encoding from the quantum singular value transformation, we show how to invert the Jacobian matrix to execute Newton's iterative method for solving nonlinear equations, where each contributing equation is a homogeneous polynomial of an even degree. A detailed analysis are then carried out to reveal that our method achieves polylogarithmic time in relative to the number of variables. Furthermore, the number of required qubits is logarithmic in the number of variables. In particular, we also show that our method can be modified with little effort to deal with polynomial of various types, thus implying the generality of our approach. Some examples coming from physical context, such as Gross-Pitaevski equation and Lotka-Volterra equations, involving nonlinear partial differential equations are provided to motivate the potential application, with a description on how to extend our algorithm with even less effort in such a scenario. Our work thus marks a further important step towards quantum advantage in nonlinear science, enabled by the framework of quantum singular value transformation.},
   pdf = {https://arxiv.org/abs/2404.03810}
 }
