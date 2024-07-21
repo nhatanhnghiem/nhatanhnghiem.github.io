@@ -2,7 +2,7 @@
 "PhysRev":
   url: https://journals.aps.org/
   color: "#FF5E33"
-  
+
 "Vision":
   color: "#009f36"
 
@@ -25,3 +25,7 @@
 "QIP":
   url: https://link.springer.com/journal/11128
   color: "#FF3390"
+
+"arxiv":
+  url: https://arxiv.org/
+  color: "#33FFF3"
