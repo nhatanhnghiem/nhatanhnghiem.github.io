@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: nhatanh.nghiemvu@stonybrook.edu -- (615-668-0421)
-"Happiness is the Pursuit of Beauties"
+subtitle: nhatanh.nghiemvu@stonybrook.edu / Phone number (615-668-0421)
 
 profile:
   align: right
