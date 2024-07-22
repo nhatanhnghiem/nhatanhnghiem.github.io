@@ -2,9 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle: > 
-<p>nhatanh.nghiemvu@stonybrook.edu -- (615-668-0421)<p>
-<p>"Happiness Is The Pursuit of Beauty"<p>
+subtitle: nhatanh.nghiemvu@stonybrook.edu -- (615-668-0421)
+"Happiness is the Pursuit of Beauties"
 
 profile:
   align: right
