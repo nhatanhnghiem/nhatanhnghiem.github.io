@@ -3,9 +3,7 @@
     {% assign news_size = site.news | size %}
     <div
       class="table-responsive"
-      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
+      style="max-height: 60vh; overflow-y: auto;"
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
@@ -23,6 +21,9 @@
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
+              <div class="news-content">
+                {{ item.content | emojify }}
+              </div>
             </td>
           </tr>
         {% endfor %}
