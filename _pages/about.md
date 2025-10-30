@@ -17,7 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am currently a 4-th year Ph.D. student at [C.N.Yang Institute for Theoretical Physics](http://insti.physics.sunysb.edu/itp/www/). Before that I obtained B.S degree in Physics from Department of Physics & Astronomy,  Stony Brook University.  During my undergraduate time,  I worked as student researcher at Brookaven National Laboratory and Los Alamos National Laboratory as well as Department of Physics and Astronomy, Stony Brook University.
+I am currently a 5-th year Ph.D. student at [C.N.Yang Institute for Theoretical Physics](http://insti.physics.sunysb.edu/itp/www/). Before that I obtained B.S degree in Physics from Department of Physics & Astronomy,  Stony Brook University.  During my undergraduate time,  I worked as student researcher at Brookaven National Laboratory and Los Alamos National Laboratory as well as Department of Physics and Astronomy, Stony Brook University.
 
 My research is centered on the fascinating intersection of quantum computation, information theory and condensed matter physics. I am deeply intrigued by how the principles of quantum physics offer an entirely new paradigm for computing, enabling quantum computers to tackle complex computational challenges that pose significant hurdles for classical computers, including supercomputers. Additionally, I am interested in exploring physical phenomena of many-body system, and how it can be utilized to build small to large scale quantum computer. Currently, my specific research activity includes quantum algorithm, quantum circuit complexity and condensed matter physics.
 
